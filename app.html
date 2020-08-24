@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight Converter</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1 class="display-4 text-center">Weight Converter</h1>
+                <form>
+                    <div class="form-group">
+                        <input id="lbsInput" min="0" type="number" class="form-control form-control-lg" placeholder="Enter your weight here in pounds....">
+                    </div>
+                </form>
+                <div id="output">
+
+                    <div class="row">
+                        <div class="col">
+                            <div class="card bg-light mb-3">
+                                <div class="card-body text-secondary">
+                                    <h5 class="card-title">Grams:</h5>
+                                    <p id="gmOutput" class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <div class="card bg-light mb-3">
+                                <div class="card-body text-secondary">
+                                    <h5 class="card-title">Kilograms:</h5>
+                                    <p id="kgOutput" class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <div class="card bg-light mb-3">
+                                <div class="card-body text-secondary">
+                                    <h5 class="card-title">Ounces:</h5>
+                                    <p id="ozOutput" class="card-text"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+
+</body>
+</html>

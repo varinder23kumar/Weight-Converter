@@ -1,0 +1,9 @@
+body{
+    background-color: #092532;
+    margin-top: 70px;
+    color: #fff;
+}
+
+#output{
+    visibility: hidden;
+}
